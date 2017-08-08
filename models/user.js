@@ -39,7 +39,6 @@ module.exports.addUser = (newUser, callback) => {
             newUser.save(callback);
         })
     })
-
 };
 
 module.exports.comparePassword = (candidatePassword, hash, callback) => {
